@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="landing-container">
       <img
-        src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Yes_Bank_SVG_Logo.svg/300px-Yes_Bank_SVG_Logo.svg.png?20141004043941'
+        src='/YESBANK.NS_BIG.svg'
         alt="YES BANK Logo"
         className="yesbank-logo"
       />
