@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + React + TS</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+  <script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    Chatbot.init({
+      chatflowid: "e9c0e586-8666-42ca-a429-10e33764ca54",
+      apiHost: "https://flowise.cateina.com",
+      theme: {
+        chatWindow: {
+          footer: {
+            textColor: '#303235',
+            text: 'Powered by',
+            company: 'Yes Bank',
+            companyLink: 'https://yesbank.in'
+          }
+        }
+      }
+    })
+  </script>
+
+</body>
+
+</html>
